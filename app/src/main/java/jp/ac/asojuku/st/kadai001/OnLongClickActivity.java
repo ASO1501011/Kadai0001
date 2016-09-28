@@ -19,8 +19,7 @@ public class OnLongClickActivity extends AppCompatActivity implements View.OnCli
     // 戻るボタンの動作
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(OnLongClickActivity.this, MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 
 }
